@@ -16,7 +16,27 @@
 \selectlanguage{english}
 %% ------
 \pagestyle{begin}
-\input{0.Inicio/1.cover.tex} 
+
+%% ----------- COVER --------------
+% After deciding the language in which you'll write the thesis -- PT (Portuguese) or EN (English) -- you can
+% edit and select (uncomment) the respective cover file.
+\input{0.Inicio/1.cover_EN_draft.tex} 
+%\input{0.Inicio/1.cover_PT_draft.tex}
+%%-------------------------------------
+\clearpage
+% Since I am using double sided pages, the second page should be white.
+% Remember that when delivering the dissertation, IST requires for the cover to appear twice.
+
+\thispagestyle{empty}
+\cleardoublepage
+
+\setcounter{page}{1} \pagenumbering{roman} % --- Start with Roman numbering ---
+
+\baselineskip 18pt % line spacing: -12pt for single spacing
+                   %               -18pt for 1 1/2 spacing
+                   %               -24pt for double spacingnts}
+                   
+ %%%% Initial Chapters
 \input{0.Inicio/2.citation.tex}
 \input{0.Inicio/3.Acknowledgments.tex}
 \selectlanguage{english}
