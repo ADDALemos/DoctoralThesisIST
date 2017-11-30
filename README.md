@@ -17,6 +17,8 @@ No caso de a tese ser escrita em português, o ficheiro principal tese.tex deve 
 
 * versão da capa em português: \input{0.Inicio/1.cover_PT_draft.tex}
 
+* selecção da linguagem após o %% Use Main document Language -> \selectlanguage{portuguese}
+
 Thesis in English
 ----------------
 
@@ -25,5 +27,7 @@ When the thesis is written in english, the main file tese.tex must have:
 * version of the style file: \documentclass[defaultstyle,10pt,master,Helvetica]{01.thesis}
 
 * version of the cover in english: \input{0.Inicio/1.cover_EN_draft.tex}
+
+* apropriate selection of the language after %% Use Main document Language -> \selectlanguage{english}
 
 
