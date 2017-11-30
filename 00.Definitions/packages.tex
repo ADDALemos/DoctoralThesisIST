@@ -1,7 +1,7 @@
 \typeout{}
 \typeout{--------------------------------------------------------------}
 \typeout{ +---+ Thesis Template                            }
-\typeout{ +---+      Version 1.8.0, November 2017                         }
+\typeout{ +---+      Version 2.0, November 2017                         }
 \typeout{ +---+  for Instituto Superior Tecnico (IST),                 }
 \typeout{ +---+  Universidade Técnica de Lisboa                         }
 \typeout{ * Using Thesis Style from Pedro Tomás                                }
@@ -193,3 +193,24 @@
  \usepackage{wrapfig} % to wrap text around small figures
  \usepackage{chemformula} % for chemical formulae : http://mirrors.fe.up.pt/pub/CTAN/macros/latex/contrib/chemformula/chemformula_en.pdf
  \usepackage{dcolumn} %dcolumns in tables : https://en.wikibooks.org/wiki/LaTeX/Tables#Defining_multiple_columns
+
+%%%%%%%%%%%%   glossaries
+\usepackage{makeidx} %necessary?
+\usepackage[acronym,xindy]{glossaries}
+\loadglsentries{./0.Inicio/7.Acronyms-List.tex} % loads list
+
+\makeglossaries
+
+%% change to setglossarystyle
+\newglossarystyle{mylist}{% 
+\glossarystyle{index}% base this style on the list style 
+%\renewcommand{\glsgroupskip}{}% make nothing happen between groups 
+\renewenvironment{index}% 
+    {\tablehead{}\tabletail{}% 
+     \begin{supertabular}{lp{\glsdescwidth}}}% 
+    {\end{supertabular}}% 
+} 
+%%%%%%%%%%%%
+
+
+
