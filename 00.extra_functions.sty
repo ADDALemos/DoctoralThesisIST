@@ -1,7 +1,7 @@
 %%
 %% This is file 'extra_functions.sty',
 %%
-%% AUTHOR: Pedro Tomás
+%% v2.0 : authors : Pedro Tomás (version 1.0), Filipe Marques
 %%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{00.extra_functions}
@@ -122,6 +122,65 @@
     \or \ddagger\ddagger \else\textsuperscript{\expandafter\romannumeral#1}\fi}}}}
 
 
+% ------------- Comandos Personalizados (Filipe Marques)
+% integrais :
+\newcommand{\oiint}{\bigcirc \hspace{-1.3em} \int \hspace{-.9em} \int}
+\newcommand{\oiiint}{\bigcirc \hspace{-1.4em} \int \hspace{-0.93em} \int \hspace{-.9em} \int}
 
+%\newcommand{\degree}{^{\circ}}	%already defined  , ver pacote unitx
+\newcommand{\Cel}{~^{\circ}\mathrm{C}}
+\newcommand{\cel}{~^{\circ}\mathrm{C}}
+\newcommand{\equivalente}{\Leftrightarrow}
+\newcommand{\cita}[1]{{\footnotesize \cite{#1}}} % citações mini
+
+\newcommand{\mcaud}{\dot{\mathcal{M}}}
+\newcommand{\mflow}{\dot{m}}
+\newcommand{\normal}{\mathbf{n}}
+\newcommand{\xfrac}{\mathcal{X}}
+\newcommand{\nh}{NH_3}
+
+
+%%%% Na CAT
+%%Página de Título
+%\usepackage{setspace} %setting line space
+%
+%\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} %comando para as linhas da página de título
+%
+%%-------------------------------------------
+%\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+%
+%
+%
+%%Titles
+%\newcommand*{\TitleFont}{%
+%      \usefont{\encodingdefault}{\rmdefault}{b}{n}%
+%      \fontsize{28}{20}%40pt , 16pt -- font size
+%      \selectfont}
+%%%%
+
+%%% comandos para referenciação rápida :
+
+% This commmand is for using-the-same-figure-twice-with-no-new-number
+%% needs "caption" package,
+%% in http://tex.stackexchange.com/questions/200211/using-the-same-figure-twice-with-no-new-number
+\newcommand{\repeatcaption}[2]{%
+  \renewcommand{\thefigure}{\ref{#1}}%
+  \captionsetup{list=no}%
+  \caption{#2 (repeated from page~\pageref{#1})}%
+}
+% usage : \repeatcaption{figure:nice}{A caption}  , [previous figure: \caption{A caption}\label{figure:nice}]
+
+\newcommand{\figref}[1]{Figure \ref{#1}}
+\newcommand{\equationref}[1]{Equation (\ref{#1})}
+\newcommand{\tableref}[1]{Table (\ref{#1})}
+\newcommand{\textreg}{$\textsuperscript{\textregistered}$}
+
+\newcommand{\fig}[1]{Fig.~\ref{#1}}
+\newcommand{\eqnref}[1]{Eq.~\eqref{#1}}
+\newcommand{\tabref}[1]{Tab.~(\ref{#1})}
+\newcommand{\secref}[1]{section~(\ref{#1})}
+\newcommand{\algoref}[1]{algorithm~(\ref{#1})}
+\newcommand{\algpgref}[1]{algorithm~\ref{#1} (see page~\pageref{#1})}
+\newcommand{\pagref}[1]{page \pageref{#1}}
 
 \endinput

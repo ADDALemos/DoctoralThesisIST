@@ -171,22 +171,9 @@
 % Set paragraph counter to alphanumeric mode
 \renewcommand{\theparagraph}{\Alph{paragraph}~--}
 
-\newcommand{\figref}[1]{Figure \ref{#1}}
-\newcommand{\equationref}[1]{Equation (\ref{#1})}
-\newcommand{\tableref}[1]{Table (\ref{#1})}
-
-\newcommand{\textreg}{$\textsuperscript{\textregistered}$}
-
-
 \usepackage{enumitem}	% para set list
 \usepackage{algpseudocode} % algorithmic pseudocode
 \usepackage[chapter]{algorithm}
-
-\usepackage{siunitx}
-\sisetup{load-configurations = abbreviations}
-% declares extra units
-\DeclareSIUnit\Mtoe{\mega \tonne oe} % use: \SI{100}{\Mtoe}
-\DeclareSIUnit\GWh{GWh} % use: \SI{100}{\GWh}  (not \GW\hour = GW h )
 
 \usepackage{scrextend}
 \usepackage{marginnote}%temporary notes at the margin
@@ -195,6 +182,13 @@
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}}
   {\endminipage\par\medskip}
+
+\usepackage{siunitx}
+\sisetup{load-configurations = abbreviations}
+%%% -------------------- declares extra units
+\DeclareSIUnit\Mtoe{\mega \tonne oe} % use: \SI{100}{\Mtoe}
+\DeclareSIUnit\GWh{GWh} % use: \SI{100}{\GWh}  (not \GW\hour = GW h )
+%%% -------------------------------------------------
 
  \usepackage{wrapfig} % to wrap text around small figures
  \usepackage{chemformula} % for chemical formulae : http://mirrors.fe.up.pt/pub/CTAN/macros/latex/contrib/chemformula/chemformula_en.pdf
