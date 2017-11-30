@@ -1,15 +1,15 @@
 \typeout{}
 \typeout{--------------------------------------------------------------}
 \typeout{ +---+ Thesis Template                            }
-\typeout{ +---+      Version 1.7.8, April 2016                         }
+\typeout{ +---+      Version 1.8.0, November 2017                         }
 \typeout{ +---+  for Instituto Superior Tecnico (IST),                 }
 \typeout{ +---+  Universidade Técnica de Lisboa                         }
 \typeout{ * Using Thesis Style from Pedro Tomás                                }
 \typeout{ * Created to write Dissertations                             }
-\typeout{ * Conforms with IST Master Degree format and with most important packages setup        }
-\typeout{ * Should conform with IST PhD Degree format (not verified)   }
+\typeout{ * Conforms with IST Doctoral Degree format and with most important packages setup        }
+%\typeout{ * Should conform with IST PhD Degree format (not verified)   }
 \typeout{                                                              }
-\typeout{ AUTHOR: Miguel Amador and João Marques                                          }
+\typeout{ AUTHOR: Filipe Marques; (original Master Degree Thesis Template authors:) Miguel Amador and João Marques                                          }
 \typeout{                                                              }
 \typeout{Important: Use all files in the archive, since this is based in all them. Modify dummy files at wish.                                                              }
 \typeout{--------------------------------------------------------------}
@@ -84,15 +84,14 @@
 \usepackage{graphics}
 \usepackage{graphicx}
 \usepackage{epsfig}
-\usepackage[hang,small,bf]{subfigure}
-%\usepackage[footnotesize,bf,center]{caption}
+\usepackage[font=small,labelfont=bf,textfont=normalfont]{caption}
+\usepackage{caption} 	%to alter captions  (\usepackage[footnotesize,bf,center]{caption})
+%\usepackage[hang,small,bf]{subfigure} %deprecated > use subfig or subcaption:
+\usepackage{subcaption}	%for subfigures
 \usepackage{dcolumn}
 \usepackage{bm}
 \usepackage{booktabs}
 \usepackage{rotating}
-\usepackage{multirow}
-
-\usepackage[font=small,labelfont=bf,textfont=normalfont]{caption}
 
 % PACKAGE algorithmic, algorithm
 % ------------------------------
