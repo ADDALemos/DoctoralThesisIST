@@ -1,12 +1,14 @@
 ThesisIST
 =========
 
-Template de Latex para Tese de Doutoramento no Instituto Superior Técnico. Este template não é oficial. Aconselha-se portanto a verificação da satisfação de todas as regras indicadas para a redacção deste trabalho académico no momento de entrega.
+Template de LaTex para Tese de Doutoramento no Instituto Superior Técnico. Este template não é oficial. Aconselha-se portanto a verificação da satisfação de todas as regras indicadas para a redacção deste trabalho académico no momento de entrega.
 
 Último registo de submissão de tese baseada neste template: Julho de 2017.
 
 Este template deriva do template para teses de mestrado disponível em
 https://github.com/themiguelamador/ThesisIST/
+
+*Read this in other languages*: [English](https://github.com/FilipeMar/ThesisIST/README.EN.md ).
 
 Tese em Português
 ----------------
@@ -19,15 +21,28 @@ No caso de a tese ser escrita em português, o ficheiro principal tese.tex deve 
 
 * selecção da linguagem após o %% Use Main document Language -> \selectlanguage{portuguese}
 
-Thesis in English
-----------------
+*No caso de ser escrita em inglês, ver a versão deste documento em* [English](https://github.com/FilipeMar/ThesisIST/README.EN.md ).
 
-When the thesis is written in english, the main file tese.tex must have:
+LaTeX Packages
+--------------
 
-* version of the style file: \documentclass[defaultstyle,10pt,master,Helvetica]{01.thesis}
+Editar ficheiro `00.Definitions/packages.tex` .
 
-* version of the cover in english: \input{0.Inicio/1.cover_EN_draft.tex}
+Funções extra
+------------
 
-* apropriate selection of the language after %% Use Main document Language -> \selectlanguage{english}
+Editar ficheiro `00.extra_functions.sty`, ou `00.listofsymbols.sty`, ou `00.symlist.sty`.
+
+
+Figures, Floats, and Captions
+------------
+
+Ver [Wiki LaTeX Floats,_Figures_and_Captions.](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions).
+
+
+Glossary / Glossário / Notação / Acrónimos
+-----------
+
+Ver [Wiki LaTeX Glossary.](https://en.wikibooks.org/wiki/LaTeX/Glossary).
 
 

@@ -52,15 +52,18 @@
 % Defines additional latex symbols. May be required for thesis with many math symbols.
 \usepackage{latexsym}
 
-% PACKAGE amsmath, amsthm, amssymb, amsfonts:
+% MATH PACKAGES amsthm, amssymb, amsfonts...:
 % -------------------------------------------
 % This package is typically required. Among many other things it adds the possibility
 % to put symbols in bold by using \boldsymbol (not \mathbf); defines additional 
 % fonts and symbols; adds the \eqref command for citing equations. I prefer the style
 % "(x.xx)" for referering to an equation than to use "equation x.xx".
-\usepackage{amsmath, amsthm, amssymb, amsfonts, amsbsy}
+\usepackage{amsthm, amssymb, amsfonts, amsbsy}
+\usepackage{mathtools}%The mathtools package fixes some amsmath quirks and adds some useful settings, symbols, and environments to amsmath.
+\usepackage{xcolor,cancel} % xcolor to change the texto color; cancel to use a cancel line in equations.
+%https://en.wikibooks.org/wiki/LaTeX/Colors
 
-% PACKAGE multirow, colortbl, longtable:
+% PACKAGE TABLES multirow, colortbl, longtable:
 % ---------------------------------------
 % These packages are most usefull for advanced tables. The first allows to join rows 
 % throuhg the command \multirow which works similarly with the command \multicolumn
@@ -73,8 +76,9 @@
 \usepackage{pdflscape}
 % \usepackage{longtable}
 \usepackage{tabularx}	% (default: necessary for the cover)
+\usepackage{longtable,tabu}
 
-% PACKAGE graphics, epsfig, subfigure, caption:
+% PACKAGE GRAPHICS graphics, epsfig, caption, etc...:
 % ---------------------------------------------
 % Packages for figures... well you will certainly need these packages, with the exception
 % of the 'caption' package. This only allows to define extra caption options.
@@ -84,7 +88,8 @@
 % by latex) for each of the subfigures and then use the command \subfigure (see below).
 \usepackage{graphics}
 \usepackage{graphicx}
-\usepackage{epsfig}
+%\usepackage[pdftex]{graphicx} %> esta selecção provoca colisão com epsfig e caption...
+\usepackage{epsfig}	%colisao com graphicx
 \usepackage[font=small,labelfont=bf,textfont=normalfont]{caption}
 \usepackage{caption} 	%to alter captions  (\usepackage[footnotesize,bf,center]{caption})
 %\usepackage[hang,small,bf]{subfigure} %deprecated > use subfig or subcaption:
@@ -93,6 +98,10 @@
 \usepackage{bm}
 \usepackage{booktabs}
 \usepackage{rotating}
+
+\usepackage{color}% to alter text colour
+\usepackage{pstricks} % to inkscape latex... not working
+\usepackage{import} %to pdf-tex import from different place
 
 % PACKAGE algorithmic, algorithm
 % ------------------------------
@@ -149,9 +158,12 @@
              bookmarksopen=true,
              pdftitle={Thesis Title},
              pdfauthor={Author Name},
-             pdfsubject={Master Thesis in Biomedical Engineering},
+             pdfsubject={Doctoral Thesis in Mechanical Engineering},
              pdfcreator={Document Creator Name},
              pdfkeywords={Template, Latex, Thesis}}
+%\usepackage[pdftex,bookmarks,colorlinks,breaklinks]{hyperref}  % PDF hyperlinks, with coloured links
+%%\hypersetup{linkcolor=blue}
+%\hypersetup{linkcolor=black}
 \usepackage{float}
 %\usepackage[final]{00.listofsymbols}
 \usepackage{00.symlist}
@@ -164,3 +176,26 @@
 \newcommand{\tableref}[1]{Table (\ref{#1})}
 
 \newcommand{\textreg}{$\textsuperscript{\textregistered}$}
+
+
+\usepackage{enumitem}	% para set list
+\usepackage{algpseudocode} % algorithmic pseudocode
+\usepackage[chapter]{algorithm}
+
+\usepackage{siunitx}
+\sisetup{load-configurations = abbreviations}
+% declares extra units
+\DeclareSIUnit\Mtoe{\mega \tonne oe} % use: \SI{100}{\Mtoe}
+\DeclareSIUnit\GWh{GWh} % use: \SI{100}{\GWh}  (not \GW\hour = GW h )
+
+\usepackage{scrextend}
+\usepackage{marginnote}%temporary notes at the margin
+\usepackage{multicol} %multiple columns environment
+%solves figure problem: http://tex.stackexchange.com/questions/12262/multicol-and-figures
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+ \usepackage{wrapfig} % to wrap text around small figures
+ \usepackage{chemformula} % for chemical formulae : http://mirrors.fe.up.pt/pub/CTAN/macros/latex/contrib/chemformula/chemformula_en.pdf
+ \usepackage{dcolumn} %dcolumns in tables : https://en.wikibooks.org/wiki/LaTeX/Tables#Defining_multiple_columns
