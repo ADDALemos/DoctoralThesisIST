@@ -11,3 +11,7 @@ https://github.com/themiguelamador/ThesisIST/
 Para mais informações sobre o uso deste template, visita o [wiki](https://github.com/FilipeMar/ThesisIST/wiki).
 
 *Read this in other languages*: [English](https://github.com/FilipeMar/ThesisIST/blob/master/README.EN.md ).
+
+A última versão para uso está disponível para ser descarregada [aqui](https://github.com/FilipeMar/ThesisIST/releases).
+
+Deixo o convite para contribuires na melhoria do template, está à vontade para avançar com um pull request.
