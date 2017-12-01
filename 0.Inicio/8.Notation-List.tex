@@ -1,0 +1,111 @@
+%% Glossaries : Notation Glossaries type
+%% \newglossary[slg]{symbolslist}{syi}{syg}{Notation} 
+
+%% run commands:
+%%
+%% 
+%pdflatex Tese
+%makeglossaries Tese
+%%
+%	http://texblog.org/2014/01/15/glossary-and-list-of-acronyms-with-latex/
+%# Glossary
+%makeindex -s filename.ist -t filename.glg -o filename.gls filename.glo
+ 
+%# List of acronyms
+%makeindex -s filename.ist -t filename.alg -o filename.acr filename.acn
+%%%
+
+%xindy  -L english -C utf8 -I xindy -M myDoc -t myDoc.glg
+%     -o myDoc.gls myDoc.glo
+%     xindy  -L english -C utf8 -I xindy -M myDoc -t myDoc.alg
+%     -o myDoc.acr myDoc.acn
+%     xindy  -L english -C utf8 -I xindy -M myDoc -t myDoc.nlg
+%     -o myDoc.not myDoc.ntn
+
+%xindy  -L english -C utf8 -L xindy -M tese -t tese.glg
+%     -o tese.gls tese.glo
+%     xindy  -L english -C utf8 -L xindy -M tese -t tese.alg
+%     -o tese.acr tese.acn
+
+
+%%%
+
+\newglossaryentry{latinletters}{name={Latin Letters},description={},sort=a} 
+\newglossaryentry{greekletters}{name={Greek Letters},description={},sort=b} 
+\newglossaryentry{subscripts}{name={Subscripts},description={},sort=c} 
+\newglossaryentry{rates}{name={Rates},description={},sort=d} 
+\newglossaryentry{ratios}{name={Ratios},description={},sort=e} 
+
+%% ---------------- TERM DEFINITIONS
+
+%LATIN
+\newglossaryentry{A}{sort=aA, 
+name={\ensuremath{A}}, 
+description={Cross-sectional area [\si{\meter\squared}]}, 
+parent=latinletters}
+
+\newglossaryentry{a}{sort=aa, 
+name={\ensuremath{a}}, 
+description={Total surface area per unit length [\si{\meter}]}, 
+parent=latinletters}
+
+\newglossaryentry{Cd}{sort=aCd, 
+name={\ensuremath{C_d}}, 
+description={Drag coefficient [ ]}, 
+parent=latinletters}
+
+%GREEK
+
+\newglossaryentry{alpha}{sort=balpha, 
+name={\ensuremath{\alpha}}, 
+description={Angle [\degree]}, 
+parent=greekletters}
+
+\newglossaryentry{gamma}{sort=bgamma, 
+name={\ensuremath{\gamma}}, 
+description={Adiabatic index $\frac{c_p}{c_V}$ [\si{\joule\per\kilogram\per\kelvin}/(\si{\joule\per\kilogram\per\kelvin})]}, 
+parent=greekletters}$kg/kg$
+
+%SUBSCRIPTS
+
+\newglossaryentry{_v}{sort=cv, 
+name={\ensuremath{_v}}, 
+description={Vapour}, 
+parent=subscripts}
+
+\newglossaryentry{_V}{sort=cV, 
+name={\ensuremath{_V}}, 
+description={Constant volume process}, 
+parent=subscripts}
+
+\newglossaryentry{_P}{sort=cp, 
+name={\ensuremath{_P}}, 
+description={Constant pressure volume}, 
+parent=subscripts}
+
+\newglossaryentry{_p}{sort=cp, 
+name={\ensuremath{_p}}, 
+description={Related to the pump.}, 
+parent=subscripts}
+
+%RATES 
+\newglossaryentry{mflow}{sort=dm, 
+name={\ensuremath{\mflow}}, 
+description={Mass flow rate [\si{\kg\per\second}]}, 
+parent=rates} %[$kg/s$]
+
+\newglossaryentry{Qdot}{sort=dQ, 
+name={\ensuremath{\dot{Q}}}, 
+description={Heat Power / Heat per unit of time [\si{\kilo\joule\per\second}]}, 
+parent=rates} %$kJ/s$
+
+%RATIOS
+\newglossaryentry{Eu}{sort=eEu, 
+name={\ensuremath{ Eu}}, 
+description={Euler number $\Delta P/(\rho_v u_v^2)$, where $\Delta P$ is the pressure difference between the absorber and the evaporator [\si{\Pa}/\si{\Pa}]}, 
+parent=ratios}
+
+\newglossaryentry{slip}{sort=euvs, 
+name={\ensuremath{u_{v/s}} }, 
+description={Slip ratio $\frac{u_v}{u_s}$ [\si{\meter\per\second / \meter\per\second}]}, 
+parent=ratios} %$kg/kg$

@@ -1,0 +1,540 @@
+\ifglsentryexists{latinletters}{}%
+{%
+\gls@defglossaryentry{latinletters}%
+{%
+name={Latin Letters},%
+sort={a},%
+type={main},%
+first={Latin Letters},%
+firstplural={Latin Letterss},%
+text={Latin Letters},%
+plural={Latin Letterss},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{greekletters}{}%
+{%
+\gls@defglossaryentry{greekletters}%
+{%
+name={Greek Letters},%
+sort={b},%
+type={main},%
+first={Greek Letters},%
+firstplural={Greek Letterss},%
+text={Greek Letters},%
+plural={Greek Letterss},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{subscripts}{}%
+{%
+\gls@defglossaryentry{subscripts}%
+{%
+name={Subscripts},%
+sort={c},%
+type={main},%
+first={Subscripts},%
+firstplural={Subscriptss},%
+text={Subscripts},%
+plural={Subscriptss},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rates}{}%
+{%
+\gls@defglossaryentry{rates}%
+{%
+name={Rates},%
+sort={d},%
+type={main},%
+first={Rates},%
+firstplural={Ratess},%
+text={Rates},%
+plural={Ratess},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ratios}{}%
+{%
+\gls@defglossaryentry{ratios}%
+{%
+name={Ratios},%
+sort={e},%
+type={main},%
+first={Ratios},%
+firstplural={Ratioss},%
+text={Ratios},%
+plural={Ratioss},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{A}{}%
+{%
+\gls@defglossaryentry{A}%
+{%
+name={\ensuremath {A}},%
+sort={aA},%
+type={main},%
+first={\protect \ensuremath {A}},%
+firstplural={\protect \ensuremath {A}s},%
+text={\protect \ensuremath {A}},%
+plural={\protect \ensuremath {A}s},%
+description={Cross-sectional area [\si {\meter \squared }]},%
+descriptionplural={Cross-sectional area [\si {\meter \squared }]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={latinletters},%
+%
+}%
+}%
+\ifglsentryexists{a}{}%
+{%
+\gls@defglossaryentry{a}%
+{%
+name={\ensuremath {a}},%
+sort={aa},%
+type={main},%
+first={\protect \ensuremath {a}},%
+firstplural={\protect \ensuremath {a}s},%
+text={\protect \ensuremath {a}},%
+plural={\protect \ensuremath {a}s},%
+description={Total surface area per unit length [\si {\meter }]},%
+descriptionplural={Total surface area per unit length [\si {\meter }]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={latinletters},%
+%
+}%
+}%
+\ifglsentryexists{Cd}{}%
+{%
+\gls@defglossaryentry{Cd}%
+{%
+name={\ensuremath {C_d}},%
+sort={aCd},%
+type={main},%
+first={\protect \ensuremath {C_d}},%
+firstplural={\protect \ensuremath {C_d}s},%
+text={\protect \ensuremath {C_d}},%
+plural={\protect \ensuremath {C_d}s},%
+description={Drag coefficient [ ]},%
+descriptionplural={Drag coefficient [ ]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={latinletters},%
+%
+}%
+}%
+\ifglsentryexists{alpha}{}%
+{%
+\gls@defglossaryentry{alpha}%
+{%
+name={\ensuremath {\alpha }},%
+sort={balpha},%
+type={main},%
+first={\protect \ensuremath {\alpha }},%
+firstplural={\protect \ensuremath {\alpha }s},%
+text={\protect \ensuremath {\alpha }},%
+plural={\protect \ensuremath {\alpha }s},%
+description={Angle [\degree ]},%
+descriptionplural={Angle [\degree ]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={greekletters},%
+%
+}%
+}%
+\ifglsentryexists{gamma}{}%
+{%
+\gls@defglossaryentry{gamma}%
+{%
+name={\ensuremath {\gamma }},%
+sort={bgamma},%
+type={main},%
+first={\protect \ensuremath {\gamma }},%
+firstplural={\protect \ensuremath {\gamma }s},%
+text={\protect \ensuremath {\gamma }},%
+plural={\protect \ensuremath {\gamma }s},%
+description={Adiabatic index $\frac {c_p}{c_V}$ [\si {\joule \per \kilogram \per \kelvin }/(\si {\joule \per \kilogram \per \kelvin })]},%
+descriptionplural={Adiabatic index $\frac {c_p}{c_V}$ [\si {\joule \per \kilogram \per \kelvin }/(\si {\joule \per \kilogram \per \kelvin })]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={greekletters},%
+%
+}%
+}%
+\ifglsentryexists{_v}{}%
+{%
+\gls@defglossaryentry{_v}%
+{%
+name={\ensuremath {_v}},%
+sort={cv},%
+type={main},%
+first={\protect \ensuremath {_v}},%
+firstplural={\protect \ensuremath {_v}s},%
+text={\protect \ensuremath {_v}},%
+plural={\protect \ensuremath {_v}s},%
+description={Vapour},%
+descriptionplural={Vapour},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={subscripts},%
+%
+}%
+}%
+\ifglsentryexists{_V}{}%
+{%
+\gls@defglossaryentry{_V}%
+{%
+name={\ensuremath {_V}},%
+sort={cV},%
+type={main},%
+first={\protect \ensuremath {_V}},%
+firstplural={\protect \ensuremath {_V}s},%
+text={\protect \ensuremath {_V}},%
+plural={\protect \ensuremath {_V}s},%
+description={Constant volume process},%
+descriptionplural={Constant volume process},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={subscripts},%
+%
+}%
+}%
+\ifglsentryexists{_P}{}%
+{%
+\gls@defglossaryentry{_P}%
+{%
+name={\ensuremath {_P}},%
+sort={cp},%
+type={main},%
+first={\protect \ensuremath {_P}},%
+firstplural={\protect \ensuremath {_P}s},%
+text={\protect \ensuremath {_P}},%
+plural={\protect \ensuremath {_P}s},%
+description={Constant pressure volume},%
+descriptionplural={Constant pressure volume},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={subscripts},%
+%
+}%
+}%
+\ifglsentryexists{_p}{}%
+{%
+\gls@defglossaryentry{_p}%
+{%
+name={\ensuremath {_p}},%
+sort={cp},%
+type={main},%
+first={\protect \ensuremath {_p}},%
+firstplural={\protect \ensuremath {_p}s},%
+text={\protect \ensuremath {_p}},%
+plural={\protect \ensuremath {_p}s},%
+description={Related to the pump.},%
+descriptionplural={Related to the pump.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={subscripts},%
+%
+}%
+}%
+\ifglsentryexists{mflow}{}%
+{%
+\gls@defglossaryentry{mflow}%
+{%
+name={\ensuremath {\mflow }},%
+sort={dm},%
+type={main},%
+first={\protect \ensuremath {\protect \mathaccentV {dot}05F{m}}},%
+firstplural={\protect \ensuremath {\protect \mathaccentV {dot}05F{m}}s},%
+text={\protect \ensuremath {\protect \mathaccentV {dot}05F{m}}},%
+plural={\protect \ensuremath {\protect \mathaccentV {dot}05F{m}}s},%
+description={Mass flow rate [\si {\kg \per \second }]},%
+descriptionplural={Mass flow rate [\si {\kg \per \second }]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={rates},%
+%
+}%
+}%
+\ifglsentryexists{Qdot}{}%
+{%
+\gls@defglossaryentry{Qdot}%
+{%
+name={\ensuremath {\dot {Q}}},%
+sort={dQ},%
+type={main},%
+first={\protect \ensuremath {\protect \mathaccentV {dot}05F{Q}}},%
+firstplural={\protect \ensuremath {\protect \mathaccentV {dot}05F{Q}}s},%
+text={\protect \ensuremath {\protect \mathaccentV {dot}05F{Q}}},%
+plural={\protect \ensuremath {\protect \mathaccentV {dot}05F{Q}}s},%
+description={Heat Power / Heat per unit of time [\si {\kilo \joule \per \second }]},%
+descriptionplural={Heat Power / Heat per unit of time [\si {\kilo \joule \per \second }]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={rates},%
+%
+}%
+}%
+\ifglsentryexists{Eu}{}%
+{%
+\gls@defglossaryentry{Eu}%
+{%
+name={\ensuremath { Eu}},%
+sort={eEu},%
+type={main},%
+first={\protect \ensuremath { Eu}},%
+firstplural={\protect \ensuremath { Eu}s},%
+text={\protect \ensuremath { Eu}},%
+plural={\protect \ensuremath { Eu}s},%
+description={Euler number $\Delta P/(\rho _v u_v^2)$, where $\Delta P$ is the pressure difference between the absorber and the evaporator [\si {\Pa }/\si {\Pa }]},%
+descriptionplural={Euler number $\Delta P/(\rho _v u_v^2)$, where $\Delta P$ is the pressure difference between the absorber and the evaporator [\si {\Pa }/\si {\Pa }]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={ratios},%
+%
+}%
+}%
+\ifglsentryexists{slip}{}%
+{%
+\gls@defglossaryentry{slip}%
+{%
+name={\ensuremath {u_{v/s}}},%
+sort={euvs},%
+type={main},%
+first={\protect \ensuremath {u_{v/s}}},%
+firstplural={\protect \ensuremath {u_{v/s}}s},%
+text={\protect \ensuremath {u_{v/s}}},%
+plural={\protect \ensuremath {u_{v/s}}s},%
+description={Slip ratio $\frac {u_v}{u_s}$ [\si {\meter \per \second / \meter \per \second }]},%
+descriptionplural={Slip ratio $\frac {u_v}{u_s}$ [\si {\meter \per \second / \meter \per \second }]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={ratios},%
+%
+}%
+}%
