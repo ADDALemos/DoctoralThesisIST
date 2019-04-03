@@ -1,4 +1,4 @@
-ThesisIST
+Doctoral-Thesis-IST
 =========
 
 Template de LaTex para Tese de Doutoramento no Instituto Superior Técnico. Este template não é oficial. Aconselha-se portanto a verificação da satisfação de todas as regras indicadas para a redacção deste trabalho académico no momento de entrega.

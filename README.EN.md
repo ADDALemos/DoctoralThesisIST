@@ -1,4 +1,4 @@
-ThesisIST
+Doctoral-Thesis-IST
 =========
 
 LaTeX template for Doctoral / Phd Thesis at Instituto Superior Técnico (Universidade de Lisboa). This is not an official template. You're advised to verify at the office that it satisfies all the rules at the time you're submiting your thesis.
