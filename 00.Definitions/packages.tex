@@ -196,8 +196,10 @@
 
 %%%%%%%%%%%%   glossaries
 \usepackage{makeidx} %necessary?
-\usepackage[acronym,xindy]{glossaries}
-\loadglsentries{./0.Inicio/7.Acronyms-List.tex} % loads list
+\usepackage[acronym,xindy]{glossaries} %adicionar nomain option para evitar a impressão do glossário main em caso de engano, adicionar nonumberlist
+%\usepackage[nomain,acronym,makeindex]{glossaries}
+\loadglsentries{./00.Definitions/Notation-List.tex} % loads list, needs to be in the preamble
+\loadglsentries{./00.Definitions/Acronyms-List.tex} % loads list
 
 \makeglossaries
 
