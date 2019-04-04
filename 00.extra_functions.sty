@@ -68,7 +68,7 @@
         {\hspace*{18\p@}}\\
         {\hspace*{18\p@} \bfseries T\'itulo:~} \th@titulo\\
         {\hspace*{18\p@} \bfseries Nome:~} \@author \vspace*{1cm}\\
-        {\hspace*{18\p@}  Curso de Mestrado em: Engenharia Electrot\'{e}cnica e de Computadores} \\
+        {\hspace*{18\p@}  Curso de Doutoramento em: Engenharia Electrot\'{e}cnica e de Computadores} \\
         {\hspace*{18\p@}  Orientador:~} \th@supervisor\\
         \ifthenelse{\equal{\th@othersupervisor}{\relax}}{\relax}{{\hspace*{18\p@}  Co-orientador:~}\th@othersupervisor\\}
          {\hspace*{18\p@}  Provas conclu\'idas em:~\vspace*{1.5cm}\\} 
@@ -179,8 +179,12 @@
 \newcommand{\eqnref}[1]{Eq.~\eqref{#1}}
 \newcommand{\tabref}[1]{Tab.~(\ref{#1})}
 \newcommand{\secref}[1]{section~(\ref{#1})}
+\newcommand{\sectref}[1]{section~\ref{#1}}
 \newcommand{\algoref}[1]{algorithm~(\ref{#1})}
 \newcommand{\algpgref}[1]{algorithm~\ref{#1} (see page~\pageref{#1})}
 \newcommand{\pagref}[1]{page \pageref{#1}}
+
+%Glossaries
+\newcommand{\ignore}[1]{}
 
 \endinput

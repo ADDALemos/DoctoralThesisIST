@@ -98,10 +98,13 @@
 \usepackage{bm}
 \usepackage{booktabs}
 \usepackage{rotating}
+\usepackage{multirow}				%colisao com graphicx
 
 \usepackage{color}% to alter text colour
 \usepackage{pstricks} % to inkscape latex... not working
 \usepackage{import} %to pdf-tex import from different place
+
+\usepackage{pdfpages} %annex pdf pages
 
 % PACKAGE algorithmic, algorithm
 % ------------------------------
@@ -131,7 +134,7 @@
 \usepackage[printonlyused]{acronym}
 \usepackage[titletoc,title,header]{appendix}
 \usepackage[noauto]{chappg}
-%The following line assures that each chapter deals with acronyms idependently.
+%The following line assures that each chapter deals with acronyms independently.
 %You may also do it manually by calling acresetall anywhere in the documento to reset the acronyms behaviour. 
 \preto\chapter\acresetall
 
@@ -198,6 +201,9 @@
 \usepackage{makeidx} %necessary?
 \usepackage[acronym,xindy]{glossaries} %adicionar nomain option para evitar a impressão do glossário main em caso de engano, adicionar nonumberlist
 %\usepackage[nomain,acronym,makeindex]{glossaries}
+%\usepackage{glossary-mcols} % em colunas
+%\setglossarystyle{mcolindex} %estilos de glossário, ver documentação
+%\setacronymstyle{long-short}
 \loadglsentries{./00.Definitions/Notation-List.tex} % loads list, needs to be in the preamble
 \loadglsentries{./00.Definitions/Acronyms-List.tex} % loads list
 
